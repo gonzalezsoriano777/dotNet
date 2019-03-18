@@ -10,7 +10,7 @@ namespace dotNet
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hellooo, World");
+            
 
         }
     }
