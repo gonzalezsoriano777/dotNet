@@ -10,21 +10,17 @@ namespace dotNet
 {
     public static class Kata
     {
-        int Rev = ReverseOrder(63265);
+        static void main()
+        {
+            int result = ReverseOrder(45678);
+            Console.WriteLine("Hello, World");
+
+            Console.ReadLine();
+        }
 
         public static int ReverseOrder(int num)
         {
-            int i;
-            int rev = 0;
-
-            for (i = 0; i < 10; i++)
-            {
-                
-                
-            }
-
-
             return 0;
-        }
+        }   
     }
 }
