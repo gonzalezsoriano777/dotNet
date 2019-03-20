@@ -8,20 +8,34 @@ using System.Threading.Tasks;
 
 namespace dotNet
 {
-    public static class Kata
+    public static class Reverse
     {
        static void Main()
         {
             int result = ReverseOrder(45678);
-            Console.WriteLine("", result);
+            Console.WriteLine("The # provided is now Reversed to {0}!", result);
             Console.ReadLine();
 
         }
 
         public static int ReverseOrder(int num)
         {
+            // Reversed # output called
+            int output = 0;
+
+            while(num > 0)
+            {
+                int reverser = num % 10;
+
+                output = (num * 10) + reverser;
+
+
+            }
+
+
+            return output;
+
             return 0;
         }
-
     }
 }
