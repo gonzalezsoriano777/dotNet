@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace dotNet
 {
-    public static class Reverse
+    public static class Kata
     {
        static void Main()
         {
@@ -27,15 +27,18 @@ namespace dotNet
             {
                 int reverser = num % 10;
 
+                // store the reverser in output
                 output = (num * 10) + reverser;
 
+                // Console.WriteLine("This is where the # will be reversed", output);
+                Console.ReadLine();
 
             }
 
 
             return output;
 
-            return 0;
+            
         }
     }
 }
