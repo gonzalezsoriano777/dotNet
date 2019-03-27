@@ -13,7 +13,7 @@ namespace dotNet
        static void Main()
         {
             int result = ReverseOrder(45678);
-            Console.WriteLine("The # provided is now Reversed to {0}!!!", result);
+            Console.WriteLine("The # provided is now Reversed to {0}!!", result);
             Console.ReadLine();
 
         }
